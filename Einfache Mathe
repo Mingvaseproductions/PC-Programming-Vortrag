@@ -1,0 +1,36 @@
+public class Main
+{
+
+    public static void  main(String[] args)
+    {
+        int num1 = 10;
+        int num2 = 9;
+        int num3 = 8;
+        int num4 = 2;
+            /*
+            Simple Calculations:
+            The precedence rules are the same as for normal math,Parentheses are done first followed
+            by division and Multiplication, then by Addition and Subtraction. Within Parentheses
+            division and Multiplication , then by Addition and Subtraction are done in order.
+            */
+        System.out.println("Simple Calculation");
+        System.out.println( "A = " + num1 );
+        System.out.println( "B = " + num2 );
+        System.out.println( "C = " + num3 );
+        System.out.println( "Addition:: A + B = " + (num1 + num2) );
+        System.out.println( "Substation: A - B = " + (num1 - num2) );
+        System.out.println( "Multiplication: A * B = " + (num1 * num2) );
+        System.out.println( "Division: A / B = " + (num1 / num2) );
+        System.out.println("------------------------------------------------");
+            /*
+            Advanced Functions:
+            Numerous functions are available, I will only focus on a few of the more common ones
+            The functions are all integrates in the Math function and cna be used on their own without
+            importing a the package, as it is loaded by default
+            */
+        System.out.println("Advanced Functions");
+        System.out.println( "Power " + (Math.pow(num1,num4)));
+        System.out.println("Square Root " + (Math.sqrt(num2)));
+
+    }
+}
